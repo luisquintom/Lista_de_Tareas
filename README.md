@@ -1,8 +1,8 @@
-# 🚀 Aplicación Avanzada de Lista de Tareas (React)
+#  Aplicación Avanzada de Lista de Tareas (React)
 
-**Práctica 1 de React** para el Máster en Desarrollo de Aplicaciones Fullstack. Se trata de una aplicación de gestión de tareas (To-Do List) que implementa patrones avanzados de diseño y optimización en React.
+**Práctica 1 de React** Se trata de una aplicación de gestión de tareas (To-Do List) que implementa patrones avanzados de diseño y optimización en React.
 
-## 📋 Características Principales
+## Características Principales
 
 La aplicación permite gestionar el ciclo de vida completo de una tarea, incluyendo:
 - **Añadir tareas**: Registro con título y descripción detallada.
@@ -11,9 +11,9 @@ La aplicación permite gestionar el ciclo de vida completo de una tarea, incluye
 - **Filtrado Avanzado**: Visualización por categorías (Todas, Completadas, Pendientes).
 - **Persistencia Local**: Los datos se mantienen en el navegador mediante `localStorage`.
 
-## 🛠️ Tecnologías y Patrones Utilizados
+## Patrones Utilizados
 
-Para cumplir con los requisitos técnicos exigidos, se han implementado:
+Para cumplir con los requisitos, se han implementado:
 
 - **React Context & useReducer**: Gestión de estados complejos de forma global para evitar el *prop drilling*.
 - **Custom Hooks**: Lógica de negocio encapsulada en el hook `useTasks`.
@@ -21,7 +21,7 @@ Para cumplir con los requisitos técnicos exigidos, se han implementado:
 - **Testing**: Pruebas unitarias de componentes y lógica de hooks mediante **Vitest** y **React Testing Library**.
 - **Diseño Moderno**: Interfaz responsive y accesible desarrollada con CSS.
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 src/
@@ -34,7 +34,7 @@ src/
 
 ```
 
-## 🚀 Instrucciones de Ejecución
+## Instrucciones de Ejecución
 
 Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
@@ -50,14 +50,15 @@ Bash
 npm run dev
 La aplicación estará disponible en http://localhost:5173.
 
-🧪 Ejecución de Pruebas
+ Ejecución de Pruebas
 Para verificar el correcto funcionamiento de la lógica y los componentes, ejecuta:
 
 Bash
 npm run test
-# o también
+o también
 npx vitest
-👤 Autor
+---------------------------------------------------------------------------
+Autor
 Luis Enrique - Desarrollador del Proyecto
 
 Estudiante de la Universidad Europea.
