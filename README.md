@@ -38,25 +38,30 @@ src/
 
 Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
-1. Clonar el repositorio
-Bash
-git clone https://github.com/luisquintom/Lista_de_Tareas
+### 1. Clonar el repositorio
+```bash
+git clone [https://github.com/luisquintom/Lista_de_Tareas](https://github.com/luisquintom/Lista_de_Tareas)
 
-2. Instalar dependencias
-Bash
+```
+### 2. Instalar dependencias
+```bash
 npm install
-3. Iniciar el servidor
-Bash
+```
+### 3. Iniciar el servidor
+```bash
 npm run dev
+```
 La aplicación estará disponible en http://localhost:5173.
 
- Ejecución de Pruebas
+### Ejecución de Pruebas
 Para verificar el correcto funcionamiento de la lógica y los componentes, ejecuta:
-
-Bash
+```bash
 npm run test
+```
 o también
+```bash
 npx vitest
+```
 ---------------------------------------------------------------------------
 Autor
 Luis Enrique - Desarrollador del Proyecto
