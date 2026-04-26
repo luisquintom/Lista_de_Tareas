@@ -40,7 +40,7 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone [https://github.com/luisquintom/Lista_de_Tareas](https://github.com/luisquintom/Lista_de_Tareas)
+git clone https://github.com/luisquintom/Lista_de_Tareas
 
 ```
 ### 2. Instalar dependencias
