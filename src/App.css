@@ -1,0 +1,84 @@
+/* src/App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* Contenedor principal */
+.app-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Estilo de los inputs */
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box; 
+}
+
+/* Estilo de los botones */
+button {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.3s ease; 
+  font-weight: 600;
+}
+
+/* Botón principal (Agregar) */
+button[type="submit"] {
+  background-color: #2ecc71; 
+  color: white;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #27ae60;
+}
+
+/* Estilo de las tarjetas de tarea (TaskItem) */
+.task-card {
+  border-left: 5px solid #3498db; 
+  background: #fff;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.task-card.completed {
+  border-left-color: #2ecc71;
+  opacity: 0.7;
+}
+
+/* Botones de filtro */
+.filter-group {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.filter-btn {
+  background: #eee;
+  flex: 1;
+}
+
+.filter-btn.active {
+  background: #3498db;
+  color: white;
+}
